@@ -38,10 +38,17 @@
   .summary {
     width: 450px;
     height: 320px;
+    margin: auto;
   }
   .summary-categories {
     display: flex;
     justify-content: space-between;
+  }
+  .summary-categories .icon-text {
+    display: flex;
+  }
+  .summary-categories .numbers {
+    display: flex;
   }
   .summary .reaction-items .category {
     color: hsl(0, 100%, 67%);
