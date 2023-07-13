@@ -42,17 +42,25 @@
 
     }
 
-    .summary-items{
+    .summary{
         
         // display: flex;
         width: 450px;
         height: 320px;
         
+
+        &-categories {
+            display: flex;
+            justify-content: space-between;
+
+        
+        }
+        
         
         .reaction-items{
             
-            background-color:  hsl(0, 100%, 67%);
-            margin: 10px;
+            // background-color:  hsl(0, 100%, 67%);
+            
             
             .category{
                 color: $primary-red;
