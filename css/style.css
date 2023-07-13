@@ -35,23 +35,24 @@
     color: hsl(0, 0%, 100%);
     margin-top: 15px;
   }
-  .summary-items {
+  .summary {
     width: 450px;
     height: 320px;
   }
-  .summary-items .reaction-items {
-    margin: 10px;
+  .summary-categories {
+    display: flex;
+    justify-content: space-between;
   }
-  .summary-items .reaction-items .category {
+  .summary .reaction-items .category {
     color: hsl(0, 100%, 67%);
   }
-  .summary-items .memory-items .category {
+  .summary .memory-items .category {
     color: hsl(39, 100%, 56%);
   }
-  .summary-items .verbal-items .category {
+  .summary .verbal-items .category {
     color: hsl(166, 100%, 37%);
   }
-  .summary-items .visual-items .category {
+  .summary .visual-items .category {
     color: hsl(234, 85%, 45%);
   }
 }
