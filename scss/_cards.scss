@@ -44,15 +44,22 @@
 
     .summary{
         
-        // display: flex;
         width: 450px;
         height: 320px;
+        margin: auto;
         
 
         &-categories {
             display: flex;
             justify-content: space-between;
+            
+            .icon-text{
+                display: flex;
+            }
 
+            .numbers {
+                display: flex;
+            }
         
         }
         
