@@ -41,11 +41,15 @@
     height: 320px;
     margin: auto;
   }
+  .summary-title {
+    margin: 1.5rem 0 1.5rem;
+    color: hsl(224, 30%, 27%);
+  }
   .summary-categories {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    padding: 0.7rem;
+    padding: 0.9rem;
     margin-bottom: 1rem;
   }
   .summary-categories .icon-text {
