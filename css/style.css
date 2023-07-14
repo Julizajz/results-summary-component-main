@@ -46,6 +46,7 @@
     justify-content: space-between;
     border-radius: 10px;
     padding: 0.7rem;
+    margin-bottom: 1rem;
   }
   .summary-categories .icon-text {
     display: flex;
@@ -59,11 +60,20 @@
   .summary .reaction-items .category {
     color: hsl(0, 100%, 67%);
   }
+  .summary .memory-items {
+    background-color: #fff7e9;
+  }
   .summary .memory-items .category {
     color: hsl(39, 100%, 56%);
   }
+  .summary .verbal-items {
+    background-color: #e6f8f4;
+  }
   .summary .verbal-items .category {
     color: hsl(166, 100%, 37%);
+  }
+  .summary .visual-items {
+    background-color: #e7e9fb;
   }
   .summary .visual-items .category {
     color: hsl(234, 85%, 45%);
