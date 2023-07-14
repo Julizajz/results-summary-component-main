@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .results {
     background-color: hsl(241, 81%, 54%);
     border-bottom-left-radius: 35px;
@@ -36,7 +36,7 @@
     margin-top: 15px;
   }
   .summary {
-    width: 450px;
+    width: 330px;
     height: 320px;
     margin: auto;
   }
