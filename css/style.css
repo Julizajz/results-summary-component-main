@@ -15,7 +15,7 @@
     justify-content: space-evenly;
   }
   .results-description {
-    padding: 5px;
+    padding: 0 2rem 2rem 1.5rem;
   }
   .results-title-2 {
     color: hsl(0, 0%, 100%);
@@ -44,12 +44,17 @@
   .summary-categories {
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
+    padding: 0.7rem;
   }
   .summary-categories .icon-text {
     display: flex;
   }
   .summary-categories .numbers {
     display: flex;
+  }
+  .summary .reaction-items {
+    background-color: #ffeeee;
   }
   .summary .reaction-items .category {
     color: hsl(0, 100%, 67%);
