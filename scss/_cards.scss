@@ -55,6 +55,7 @@
             justify-content: space-between;
             border-radius: 10px;
             padding: 0.7rem;
+            margin-bottom: 1rem;
             
             .icon-text{
                 display: flex;
@@ -80,19 +81,21 @@
         }
         .memory-items{
            
+            background-color: #fff7e9;
 
             .category{
                 color: $primary-orange;
             }
         }
         .verbal-items{
-        
+            
+            background-color: #e6f8f4;
             .category{
                 color: $primary-green;
             }
         }
         .visual-items{
-            
+            background-color: #e7e9fb;
             .category{
                 color: $primary-blue;
             }
