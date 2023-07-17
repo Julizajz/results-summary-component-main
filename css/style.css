@@ -55,8 +55,19 @@
   .summary-categories .icon-text {
     display: flex;
   }
+  .summary-categories .icon-text .icon {
+    margin-right: 0.6rem;
+  }
   .summary-categories .numbers {
     display: flex;
+  }
+  .summary-categories .numbers .category-score {
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+  }
+  .summary-categories .numbers .category-total {
+    margin-left: 0.5rem;
+    color: gray;
   }
   .summary .reaction-items {
     background-color: #ffeeee;
@@ -81,6 +92,18 @@
   }
   .summary .visual-items .category {
     color: hsl(234, 85%, 45%);
+  }
+  button {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Hanken Grotesk;
   }
 }
 * {
