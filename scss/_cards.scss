@@ -72,6 +72,15 @@
 
             .numbers {
                 display: flex;
+
+                .category-score{
+                    color: $gray-blue;
+                    font-weight: bold;
+                }
+                .category-total{
+                    margin-left: 0.5rem;
+                    color: gray;
+                }
             }
         
         }
