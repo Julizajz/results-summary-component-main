@@ -124,4 +124,14 @@
         font-size: 16px;
         font-family: $font-grotesk;
     }
+
+    
+    @media only screen and (min-width: 401px) {
+        .results {
+          flex-direction: row;
+          align-items: flex-start;
+          height: auto;
+        }
+    
+    }
 }
