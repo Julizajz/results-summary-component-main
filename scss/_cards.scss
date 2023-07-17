@@ -64,6 +64,10 @@
             
             .icon-text{
                 display: flex;
+
+                .icon{
+                    margin-right: 0.6rem;
+                }
             }
 
             .numbers {
@@ -74,26 +78,18 @@
         
         
         .reaction-items{
-            
             background-color: #ffeeee;
-            
-
-            
-            
             .category{
                 color: $primary-red;
             }
         }
         .memory-items{
-           
             background-color: #fff7e9;
-
             .category{
                 color: $primary-orange;
             }
         }
         .verbal-items{
-            
             background-color: #e6f8f4;
             .category{
                 color: $primary-green;
