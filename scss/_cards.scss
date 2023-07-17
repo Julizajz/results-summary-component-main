@@ -106,4 +106,17 @@
             }
         }
     }
+
+    button{
+        background-color: $gray-blue;
+        border: none;
+        border-radius: 30px;
+        width: 100%;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        font-family: $font-grotesk;
+    }
 }
